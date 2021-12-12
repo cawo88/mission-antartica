@@ -5,5 +5,5 @@ export interface PostType {
 }
 
 export interface PostData {
-  data: { posts: PostType[] };
+  data: PostType[];
 }
