@@ -1,10 +1,9 @@
-export interface Post {
-    id: number;
-    title: string;
-    thumbnailUr: string;
-  }
-  
-export interface PostData {
-  data: { posts: Post[] };
+export interface PostType {
+  id: number;
+  title: string;
+  thumbnailUrl: string;
 }
-  
+
+export interface PostData {
+  data: { posts: PostType[] };
+}
